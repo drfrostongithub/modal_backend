@@ -1,0 +1,41 @@
+{
+  "development": {
+    "api-dbName": {
+      "username": "root",
+      "password": "",
+      "database": "dbName1",
+      "host": "localhost",
+      "port": "3308",
+      "dialect": "mysql",
+      "timezone": "+7:00",
+      "logging":false
+    },
+    "api-dbName1": {
+      "username": "root",
+      "password": "",
+      "database": "dbName2",
+      "host": "localhost",
+      "port": "3308",
+      "dialect": "mysql",
+      "logging":false
+    }
+  },
+  "production": {
+    "api-dbName": {
+      "username": "root",
+      "password": "",
+      "database": "dbName1",
+      "host": "localhost",
+      "dialect": "mysql",
+      "timezone": "+7:00"
+    },
+    "api-dbName2": {
+      "username": "root",
+      "password": "",
+      "database": "dbName2",
+      "host": "localhost",
+      "dialect": "mysql",
+      "timezone": "+7:00"
+    }
+  }
+}
